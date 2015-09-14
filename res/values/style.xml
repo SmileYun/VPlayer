@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="popuwin_sty">
+        <item name="android:windowExitAnimation">@anim/popuhide</item>
+        <item name="android:windowEnterAnimation">@anim/popushow</item>
+    </style>
+
+    <style name="popuwin_title_sty">
+        <item name="android:windowExitAnimation">@anim/popu_title_hide</item>
+        <item name="android:windowEnterAnimation">@anim/popu_title_show</item>
+    </style>
+
+</resources>

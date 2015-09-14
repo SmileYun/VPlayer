@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7FA2B5CD"
+    >
+
+    <TextView
+        android:id="@+id/playTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="t"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_toRightOf="@+id/coss"
+        android:layout_marginLeft="220dp"
+        />
+
+    <ImageButton
+        android:id="@+id/coss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/coss"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/coss" 
+        android:contentDescription="@null"
+        />
+
+</RelativeLayout>
